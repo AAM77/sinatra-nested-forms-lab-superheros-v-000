@@ -6,9 +6,11 @@ class App < Sinatra::Base
 
     get '/' do
       erb :index
-    end #get '.'
+    end #get '/'
 
     post '/teams' do
+
+      @team = Team.new(params)
       erb :team
     end #'post '/teams'
 
