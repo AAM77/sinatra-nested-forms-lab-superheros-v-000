@@ -7,7 +7,7 @@ class Member
   def initialize(details)
     @name = details[:name]
     @power = details[:power]
-    @biography = details[:bio]
+    @bio = details[:bio]
 
     MEMBERS << self
   end #initialize
