@@ -13,5 +13,7 @@ class Hero
   end #initialize
 
   def self.all
+    HEROES
+  end #.all
 
 end #class Hero
