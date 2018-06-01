@@ -9,5 +9,6 @@ class Hero
     @power = details[:power]
     @biography = details[:biography]
 
-    
+    HEROES << self
+
 end #class Hero
