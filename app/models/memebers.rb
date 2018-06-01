@@ -1,13 +1,13 @@
 class Member
 
-  attr_accessor :name, :power, :biography
+  attr_accessor :name, :power, :bio
 
   MEMBERS = []
 
   def initialize(details)
     @name = details[:name]
     @power = details[:power]
-    @biography = details[:biography]
+    @biography = details[:bio]
 
     MEMBERS << self
   end #initialize
