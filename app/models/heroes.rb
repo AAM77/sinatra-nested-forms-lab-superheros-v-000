@@ -10,5 +10,6 @@ class Hero
     @biography = details[:biography]
 
     HEROES << self
+  end #initialize
 
 end #class Hero
