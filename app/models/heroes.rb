@@ -12,4 +12,6 @@ class Hero
     HEROES << self
   end #initialize
 
+  def self.all
+
 end #class Hero
