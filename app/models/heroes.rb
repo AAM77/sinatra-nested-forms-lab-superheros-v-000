@@ -2,5 +2,5 @@ class Hero
 
   attr_accessor :name, :power, :biography
 
-  def initialize(attributes)
+  def initialize(details)
 end #class Hero
